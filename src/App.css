@@ -1,38 +1,38 @@
 .App {
   text-align: center;
+  color: gainsboro;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  background-color: rgb(70, 86, 110);
+  justify-content: space-around;
   align-items: center;
+  min-height: 9vh;
+  color: #fff;
+  text-shadow: 5px 3px 3px black;
+}
+
+.Nav-links {
+ display: flex;
+ width: 30%;
+ justify-content: space-around;
+ align-content: center;
+ list-style: none;
+}
+
+.gameText {
+  margin: 3%;
+  padding: 8px;
+}
+
+.game {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gameText {
+  height: 430px;
 }
